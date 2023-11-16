@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        var val1=prompt("enter a number1");
+        var val2=prompt("enter a number2");
+        var val3=prompt("enter a number3");
+        if((val1>val2)&&(val1>val3)&&(val2>val3))
+        { 
+            document.write(`${val1},${val2},${val3}`)
+        }
+        else if(val2>val3 && val2>val1 && val3>val1)
+        {
+            document.write(`${val2},${val3},${val1}`)
+        }
+        else if(val2>val3 && val2>val1 && val1>val3)
+        { 
+            document.write(`${val2},${val1},${val3}`)
+        }
+        else if (val3>val1 && val3>val2 && val1>val2)
+        {
+            document.write(`${val3},${val1},${va2}`)
+        }
+        else if((val3>val2)&&(val3>val1)&&(val2>val1))
+        {
+           document.write(`${val3},${val2},${val1}`)
+        }
+        else 
+        {
+           document.write(`${val1},${val3},${val2}`)
+        }
+         
+         </script>
+</body>
+</html>

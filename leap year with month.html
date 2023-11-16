@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a;
+        var month= prompt("enter a month")
+        var year= prompt("enter a year")
+        if(month==1)
+        {
+         document.write(" number of days 31")
+        }
+        else if (month==2)
+              
+        {
+           if(year%4==0 && year%100!=0||year%400!=0)
+        {
+            document.write("it is a not a leap year,number of days 28")
+        }
+         else{
+          document.write(" it is a leap year,number  of days 29")
+        }
+         }
+        
+         else if(month==3)
+        {
+         document.write("number of days 31")
+        }
+         else if(month==4)
+        {
+          document.write("number of days 30")  
+        }
+        else if (month==5) 
+        {
+            document.write("number of days 31")
+        }
+        else if (month==6)
+        {
+            document.write("number of days 30")
+        }
+        else if(month==7)
+        {
+            document.write("number if days 31")
+        }
+        else if(month==8)
+        {
+            document.write("number if days 30")
+        }
+        else if(month==9)
+        {
+            document.write("number if days 31")
+        }
+        else if(month==10)
+        {
+            document.write("number if days 30")
+        }
+        else if(month==11)
+        {
+            document.write("number if days 31")
+        }
+        else if(month==12)
+        {
+            document.write("number if days 30")
+        }
+         else
+         {
+            document.write("worng entry")
+         }
+          
+    </script>
+</body>
+</html>

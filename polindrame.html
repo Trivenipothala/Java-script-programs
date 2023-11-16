@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var n,sum,rem,temp;
+         sum=0;
+         var n=parseInt(prompt("enter a number"))
+         var temp=n;
+         while(n!=0)
+         {
+            rem=n%10;
+            sum=sum*10+rem;
+            n=parseInt(n/10);
+         }
+          if(sum==temp)
+        { 
+         document.write(`${temp} is a polindrame`)
+        } 
+        else {
+         document.write(`${temp}is not polindrame`)
+        }
+    </script>
+</body>
+</html>
